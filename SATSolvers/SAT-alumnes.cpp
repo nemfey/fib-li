@@ -191,7 +191,7 @@ void checkmodel(){
 }
 
 int main(){
-  readClauses(); // reads numVars, numClauses and clauses
+  readClauses(); // reads numVars, numClauses and clauses 
   model.resize(numVars+1,UNDEF);
   indexOfNextLitToPropagate = 0;
   decisionLevel = 0;

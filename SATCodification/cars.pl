@@ -185,4 +185,5 @@ readWord(115,W):- repeat, get_code(Ch), member(Ch,[-1,10]), !, get_code(Ch1), re
 readWord(-1,_):-!, fail. %end of file
 readWord(C,[]):- member(C,[10,32]), !. % newline or white space marks end of word
 readWord(Char,[Char|W]):- get_code(Char1), readWord(Char1,W), !.
+
 %========================================================================================

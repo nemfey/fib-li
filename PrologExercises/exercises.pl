@@ -180,22 +180,3 @@ flaten([L|List],Flist):- flatten(L,L2), flatten(List,List2), append(L2,List2,Fli
 
 
 %%%% EXERCISE 22 %%%%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
